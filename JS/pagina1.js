@@ -6,8 +6,8 @@ function guardar() {
         error.textContent = "Necesitas ingresar lo solicitado";
     } else {
         window.location.href = "pagina2.html";
-        localStorage.setItem("ciudad", ciudad);
-        localStorage.setItem("nombre", nombre);
+        sessionStorage.setItem("ciudad", ciudad);
+        sessionStorage.setItem("nombre", nombre);
     }
 }
 document.addEventListener("DOMContentLoaded", () =>(

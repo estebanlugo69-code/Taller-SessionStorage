@@ -1,7 +1,7 @@
 
 function mostrarNombre() {
-    const nombre = localStorage.getItem("nombre");
-    const ciudad = localStorage.getItem("ciudad");
+    const nombre = sessionStorage.getItem("nombre");
+    const ciudad = sessionStorage.getItem("ciudad");
 
     if (nombre,ciudad === null) {
     document.getElementById("saludo").textContent = "No hay ningun nombre ni ciudad guardado";
@@ -12,7 +12,7 @@ function mostrarNombre() {
 }
 
 function borrar() {
-    localStorage.clear();
+    sessionStorage.clear();
     mostrarNombre();
 }
 document.addEventListener("DOMContentLoaded", mostrarNombre);
