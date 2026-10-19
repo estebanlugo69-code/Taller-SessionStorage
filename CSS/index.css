@@ -1,0 +1,33 @@
+body{
+    background-image: url(https://img.magnific.com/premium-photo/stars-galaxy-outer-space-sky-night-universe_146539-175.jpg?semt=ais_hybrid&w=740&q=80);
+      display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;     
+}
+.Cuerpo{
+    background-image: url(https://img.magnific.com/premium-photo/stars-galaxy-outer-space-sky-night-universe_146539-175.jpg?semt=ais_hybrid&w=740&q=80);
+    margin: 0;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(202, 202, 202);
+    gap: 15px;
+}
+.btn{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+footer{
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 15px;;
+    border: white 2px solid;
+    border-radius: 10px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
