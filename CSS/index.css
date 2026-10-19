@@ -6,7 +6,7 @@ body{
   margin: 0;     
 }
 .Cuerpo{
-    background-image: url(https://img.magnific.com/premium-photo/stars-galaxy-outer-space-sky-night-universe_146539-175.jpg?semt=ais_hybrid&w=740&q=80);
+    background: radial-gradient(#1e1e1e );
     margin: 0;
     display: flex;
     flex: 1;
@@ -15,11 +15,16 @@ body{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(202, 202, 202);
     gap: 15px;
+    border: 3px solid;
+    border-radius: 10px;
+    margin: 17%;
+    
 }
 .btn{
     border-radius: 10px;
     background-color: black;
     color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 footer{
     background-color: #1e1e1e;
